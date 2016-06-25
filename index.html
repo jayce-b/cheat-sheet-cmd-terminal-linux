@@ -69,7 +69,44 @@
 
 		<p>rm -rf dossier supprime le répertoire et tout son contenu, sans confirmation</p>
 
-		
+	<h2>Les commandes de recherche</h2>
 
+		<p>grep (recherche les occurences de mots à l'intérieur de fichier)</p>
+
+		<p>grep motif fichier</p>
+
+		<p>grep -i motif fichier (sans tenir compte de la casse)</p>
+
+		<p>grep -c motif fichier (en comptant les occurences)
+		grep -v motif fichier (inverse la recherche, en excluant le "motif")</p>
+
+		<p>grep expression /répertoire/fichier</p>
+
+		<p>grep [aFm]in /répertoire/fichier</p>
+
+		<p>grep "\$" *.txt</p>
+
+	<h2>Les commandes d'édition</h2>
+
+		<p>more ("pager" qui affiche page par page sans retour en arrière, "h" affiche l'aide contextuelle)
+
+		<p>more fichier</p>
+
+		<p>more fichier1 fichier2</p>
+
+		<p>more *.txt</p>
+
+		<br>cat (concatenate avec le code de fin de fichier eof=CTRL + D)</br>
+
+		<p>cat fichier-un fichier-deux > fichier-un-deux
+		cat -n fichier > fichier-numéroté (crée un fichier dont les lignes sont numérotés)<p>
+
+		<p>cat -nb fichier (affiche sur la sortie standard les lignes numéroté, sauf les lignes vides)
+
+		<br>head (affiche les 10 premières lignes d'un fichier)</br>
+
+		<br>head -n22 fichier (affiche les 22 premières lignes)</br>
+
+		<br>diff (différence entre deux fichiers, utiles pour chercher les modifications)</br>
 
 	</body>
