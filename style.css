@@ -15,6 +15,7 @@
 
 }
 
+
 @font-face {
     font-family: 'print_boldregular';
     src: url('PrintBold-webfont.eot');
@@ -27,6 +28,10 @@
 
 }
 
+
+/*##################################################*/
+/*##########mon css titre et corps de page##########*/
+/*##################################################*/
 
 *
 {
@@ -49,4 +54,14 @@ h2
 	text-align: left;
 	color: #000000;
 	font-size: 2em;
+	text-decoration: underline;
 }
+
+p
+{
+	color:#FFFFFF;
+	font-family: 'print_clearlyregular';
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
