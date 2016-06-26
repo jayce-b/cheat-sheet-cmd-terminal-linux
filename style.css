@@ -65,3 +65,9 @@ p
 	font-weight: bold;
 }
 
+section
+{
+	border:solid 3px #FFFFFF;
+	padding: 2%;
+	border-radius: 10px;
+}
