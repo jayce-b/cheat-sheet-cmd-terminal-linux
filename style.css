@@ -38,6 +38,8 @@
 	background-color: #a80030;
 }
 
+/*ceci est mon titre*/
+
 h1
 {
 	font-family: 'print_boldregular';
@@ -48,6 +50,8 @@ h1
 	padding-top:1%;
 }
 
+/*ce sont mes sous-titres*/
+
 h2
 {
 	font-family: 'print_boldregular';
@@ -56,6 +60,8 @@ h2
 	font-size: 2.5em;
 	text-decoration: underline;
 }
+
+/*ce sont mes paragraphes*/
 
 p
 {
